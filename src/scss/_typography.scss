@@ -1,0 +1,10 @@
+p, h1 {
+  font-family: $font-seconday;
+}
+
+@mixin font-size($font-size: $font-medium) {
+  font-size: $font-size;
+  @include mq (medium) {
+    font-size: $font-size * 1.2;
+  }
+}

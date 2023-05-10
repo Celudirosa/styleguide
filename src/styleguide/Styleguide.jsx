@@ -16,6 +16,19 @@ export default function Styleguide() {
         <h6>Esto es un H6</h6>
       <Buttons />
       </section>
+      <h1>Colors</h1>
+      <section className='styleguide_colors'>
+        <div className='circle green'></div>
+        <div className='circle yellow'></div>
+        <div className='circle red'></div>
+        <div className='circle blue'></div>
+        <div className='circle cool-gray'></div>
+        <div className='circle alert_green'></div>
+        <div className='circle alert_orange'></div>
+        <div className='circle alert_red'></div>
+        <div className='circle alert_blue'></div>
+        <div className='circle alert_violet'></div>
+      </section>
     </>
   )
 }

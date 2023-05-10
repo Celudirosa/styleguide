@@ -1,3 +1,5 @@
+@import '/src/scss/variables';
+
 p {
   background-color: pink;
 }
@@ -7,4 +9,56 @@ p {
   border: 1px solid grey;
   border-radius: 15px;
   padding: 50px;
+}
+
+.styleguide_colors {
+  display: flex;
+  padding-top: 1em;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+.green {
+  background-color: $color-green;
+}
+
+.yellow {
+  background-color: $color-yellow;
+}
+
+.red {
+  background-color: $color-red;
+}
+
+.blue {
+  background-color: $color-blue;
+}
+
+.cool-gray {
+  background-color: $color-cool-gray;
+}
+
+.alert_green {
+  background-color: $color-alert_green;
+}
+
+.alert_orange {
+  background-color: $color-alert_orange;
+}
+
+.alert_red {
+  background-color: $color-alert_red;
+}
+
+.alert_blue {
+  background-color: $color-alert_blue;
+}
+
+.alert_violet {
+  background-color: $color-alert_violet;
 }
