@@ -1,0 +1,24 @@
+@import '../../scss/variables';
+
+.btn {
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  margin-left: 1.2em;
+  color: $color-cool-gray;
+}
+
+.btn-primary {
+  background-color: $color-red;
+}
+
+.btn-secondary {
+  background-color: $color-yellow;
+}
+
+.btn-cta {
+  background-color: $color-green;
+}
+
+.btn:hover {
+  border-color: $color-alert_violet;
+}

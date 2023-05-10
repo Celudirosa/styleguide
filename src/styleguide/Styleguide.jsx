@@ -7,7 +7,9 @@ export default function Styleguide() {
     <>
       <Nav />
       <p>Hola, soy Styleguide</p>
+
       <section className='styleguide_h'>
+        <h1>Typography</h1>
         <h1>Esto es un H1</h1>
         <h2>Esto es un H2</h2>
         <h3>Esto es un H3</h3>
@@ -16,8 +18,9 @@ export default function Styleguide() {
         <h6>Esto es un H6</h6>
       <Buttons />
       </section>
+
       <h1>Colors</h1>
-      <section className='styleguide_colors'>
+      <section className='styleguide_colors styleguide_h'>
         <div className='circle green'></div>
         <div className='circle yellow'></div>
         <div className='circle red'></div>
