@@ -16,3 +16,11 @@ $font-primary: 'Roboto', sans-serif;
 $font-seconday: 'Oswald', sans-serif;
 
 $font-medium: 1rem;
+
+$size-vars: (
+  "xx-small" :    .50,
+  "x-small"  :    .70,  // 11px
+  'x-big'    :    1.8,  // 29px
+  "xx-big"   :    2.5,  // 32px
+  "huge"     :    3.75  // 60px
+);

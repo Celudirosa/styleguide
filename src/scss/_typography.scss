@@ -8,3 +8,23 @@ p, h1 {
     font-size: $font-size * 1.2;
   }
 }
+
+h2 {
+  font-size: fs(huge);
+}
+
+h3 {
+  font-size: fs(xx-big);
+}
+
+h4 {
+  font-size: fs(x-big);
+}
+
+h5 {
+  font-size: fs(x-small);
+}
+
+h1 {
+  font-size: fs(xx-small);
+}
