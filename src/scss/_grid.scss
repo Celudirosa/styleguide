@@ -1,0 +1,19 @@
+/* @import '/src/scss/variables';
+
+.grid {
+  display: flex;
+  width: 100%;
+  gap: $gap;
+  margin-bottom: $grid-margin;
+}
+
+[class^="grid__item--"] {
+    height: 50px;
+    background-color: pink;
+}
+
+@for $i from 1 through $grid {
+    .grid__item--#{$i} {
+        flex: 0 0 (($i / $grid) * 100%);
+    }
+} */
