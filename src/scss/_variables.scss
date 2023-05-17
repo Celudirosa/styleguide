@@ -11,6 +11,29 @@ $color-alert_red: #F53B2E;
 $color-alert_blue: #5594C3;
 $color-alert_violet: #6660A9;
 
+$colors: (
+  "color-green": $color-green,
+  "color-yellow": $color-yellow,
+  "color-red": $color-red,
+  "color-blue": $color-blue,
+  "color-cool-gray": $color-cool-gray,
+
+  "color-alert_green": $color-alert_green,
+  "color-alert_orange": $color-alert_orange,
+  "color-alert_red": $color-alert_red,
+  "color-alert_blue": $color-alert_blue,
+  "color-alert_violet": $color-alert_violet
+);
+
+@each $color, $i in $colors {
+  .text-#{$color} {
+    color: $i;
+  }
+  .bg-#{$color} {
+    background-color: $i;
+  }
+}
+
 /* typography */
 $font-primary: 'Roboto', sans-serif;
 $font-seconday: 'Oswald', sans-serif;
